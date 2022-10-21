@@ -5,6 +5,14 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@font-face {
+    font-family: "Sequel Sans";
+    src: url("~/wwwroot/lib/Sequel\ Sans\ TTF/Sequel\ Sans\ Heavy\ Disp.ttf");
+}
+
+
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3867,6 +3875,7 @@ textarea.form-control-lg {
 
 .nav {
   display: flex;
+  background-color: red;
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
