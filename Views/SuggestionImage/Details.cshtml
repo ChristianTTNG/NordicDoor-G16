@@ -1,0 +1,36 @@
+@model NordicDoors.Models.SuggestionImage
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>SuggestionImage</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ImageURL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ImageURL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SugState)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SugState)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SuggestionID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SuggestionID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.SuggestionImageID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
