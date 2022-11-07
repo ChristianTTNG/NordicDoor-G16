@@ -13,11 +13,77 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+* {
+
+margin:0;
+padding: 0;
+
 }
 
-input {
+/* --------------------------------------- */
+/* VIEWS -> HOME -> INDEX CSHTML CSS */
+
+/* Fix div element of search */
+.searchBar {
+    margin: 2rem;
     display: block;
     margin: auto;
 }
+
+/* Search Input style  */
+.input {
+    text-align:center;
+    border-radius: 1rem;
+}
+
+/* Mine Forslag box */
+.mineforslag {
+    text-align:center;
+    background-color:lightgrey;
+    height: 20rem;
+    width: 80%;
+    /* outside the box */
+    margin:1rem;
+    /* Inside the box */
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+
+}
+
+/* Layout module framework css for align */
+.flexboxcss {
+display:flex;
+justify-content:center;
+flex-direction: column;
+align-items:center;
+}
+
+/* Siste Forslag box */
+.sisteforslag {
+    text-align: center;
+    background-color: lightgrey;
+    height: 20rem;
+    width: 80%;
+    /* outside the box */
+    margin: 1rem;
+    /* Inside the box */
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+/* Inside box av Mine forslag */
+.mineforslagbox, .sisteforslagbox {
+
+    background-color:white;
+    height:60%;
+    border-radius:1rem;
+}
+
+/* button opprett forslag */
+.buttonhome {
+    background-color: darkgreen;
+    color:white;
+    border-radius:0.5rem;
+}
+
+/* END VIEWS -> HOME -> INDEX CSHTML CSS */

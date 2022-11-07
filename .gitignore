@@ -11,3 +11,5 @@ bld/
 [Oo]bj/
 *.csproj.user
 /database
+*.DS_Store
+/Views/.DS_Store
