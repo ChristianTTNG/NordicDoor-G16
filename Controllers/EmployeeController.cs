@@ -1,8 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+using System; 
+using System.Collections.Generic; 
+using System.Linq; 
+using System.Threading.Tasks; 
+using Microsoft.AspNetCore.Mvc; 
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NordicDoors.Data;
@@ -155,7 +155,7 @@ namespace NordicDoors.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool EmployeeExists(int id)
+        private bool EmployeeExists(int id) 
         {
           return (_context.Employee?.Any(e => e.EmployeeID == id)).GetValueOrDefault();
         }
