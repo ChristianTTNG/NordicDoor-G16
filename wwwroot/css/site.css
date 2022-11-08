@@ -21,7 +21,7 @@ padding: 0;
 }
 
 /* --------------------------------------- */
-/* VIEWS -> HOME -> INDEX CSHTML CSS */
+/* VIEWS -> HOME -> INDEX CSHTML  */
 
 /* Fix div element of search */
 .searchBar {
@@ -86,4 +86,12 @@ align-items:center;
     border-radius:0.5rem;
 }
 
-/* END VIEWS -> HOME -> INDEX CSHTML CSS */
+/* END VIEWS -> HOME -> INDEX CSHTML  */
+
+/* --------------------------------------- */
+/* VIEWS -> SHARED -> LAYOUT CSHTML   */
+
+/* Center the items on the dropdown */
+#ulx1 {
+    text-align: center;
+}
