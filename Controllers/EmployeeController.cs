@@ -56,6 +56,8 @@ namespace NordicDoors.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        // Autoriser om det er admin først. Husk å legge til dette senere
+        // [Authorize]
         public async Task<IActionResult> Create([Bind("EmployeeID,EmpName,PhoneNr,Email,IsAdmin")] Employee employee)
         {
             if (ModelState.IsValid)
@@ -86,6 +88,8 @@ namespace NordicDoors.Controllers
         // POST: Employee/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // Autoriser om det er admin først. Husk å legge til dette senere
+        // [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("EmployeeID,EmpName,PhoneNr,Email,IsAdmin")] Employee employee)

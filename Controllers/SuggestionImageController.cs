@@ -56,7 +56,7 @@ namespace NordicDoors.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("SuggestionImageID,ImageURL,SugState,SuggestionID")] SuggestionImage suggestionImage)
+        public async Task<IActionResult> Create([Bind("ImageURL,SugState,SuggestionID")] SuggestionImage suggestionImage)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace NordicDoors.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("SuggestionImageID,ImageURL,SugState,SuggestionID")] SuggestionImage suggestionImage)
+        public async Task<IActionResult> Edit(int id, [Bind("SugState")] SuggestionImage suggestionImage)
         {
             if (id != suggestionImage.SuggestionImageID)
             {

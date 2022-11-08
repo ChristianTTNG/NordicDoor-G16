@@ -56,7 +56,7 @@ namespace NordicDoors.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("TeamMembershipID,TeamID,EmployeeID")] TeamMembership teamMembership)
+        public async Task<IActionResult> Create([Bind("TeamID,EmployeeID")] TeamMembership teamMembership)
         {
             if (ModelState.IsValid)
             {
@@ -67,56 +67,6 @@ namespace NordicDoors.Controllers
             return View(teamMembership);
         }
 
-        // GET: TeamMembership/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null || _context.TeamMembership == null)
-            {
-                return NotFound();
-            }
-
-            var teamMembership = await _context.TeamMembership.FindAsync(id);
-            if (teamMembership == null)
-            {
-                return NotFound();
-            }
-            return View(teamMembership);
-        }
-
-        // POST: TeamMembership/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("TeamMembershipID,TeamID,EmployeeID")] TeamMembership teamMembership)
-        {
-            if (id != teamMembership.TeamMembershipID)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(teamMembership);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!TeamMembershipExists(teamMembership.TeamMembershipID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(teamMembership);
-        }
 
         // GET: TeamMembership/Delete/5
         public async Task<IActionResult> Delete(int? id)

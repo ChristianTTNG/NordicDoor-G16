@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
-using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -58,7 +56,7 @@ namespace NordicDoors.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CommentID,CommentDate,CommentContent,SugID")] Comment comment)
+        public async Task<IActionResult> Create([Bind("CommentContent")] Comment comment)
         {
             if (ModelState.IsValid)
             {
@@ -88,29 +86,34 @@ namespace NordicDoors.Controllers
         // POST: Comment/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost, ActionName("Edit")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult EditPost(int? id)
+        public async Task<IActionResult> Edit(int id, [Bind("CommentContent")] Comment comment)
         {
-            if (id == null)
+            if (id != comment.CommentID)
             {
                 return NotFound();
             }
-            var commentToUpdate = _context.Comment.Find(id);
-            if (_context.Update(comment, "",
-               new string[] { "LastName", "FirstMidName", "EnrollmentDate" }))
+
+            if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.SaveChangesAsync();
-
-                    return RedirectToAction("Index");
+                    _context.Update(comment);
+                    await _context.SaveChangesAsync();
                 }
-                catch (DataException /* dex */)
+                catch (DbUpdateConcurrencyException)
                 {
-                    //Log the error (uncomment dex variable name and add a line here to write a log.
-                    ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists, see your system administrator.");
+                    if (!CommentExists(comment.CommentID))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
                 }
+                return RedirectToAction(nameof(Index));
             }
             return View(comment);
         }
