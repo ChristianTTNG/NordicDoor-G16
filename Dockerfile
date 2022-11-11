@@ -7,17 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["bacit-dotnet.MVC", "bacit-dotnet.MVC/"]
-RUN ls /src
-WORKDIR "/src/bacit-dotnet.MVC/"
-RUN ls "/src/bacit-dotnet.MVC/"
-RUN dotnet restore 
-RUN dotnet build -c Release  --no-restore
+COPY ["NordicDoors.csproj", "."]
+RUN dotnet restore "./NordicDoors.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "NordicDoors.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish -c Release -o /app/publish  --no-restore
+RUN dotnet publish "NordicDoors.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "bacit-dotnet.MVC.dll"]
+ENTRYPOINT ["dotnet", "NordicDoors.dll"]

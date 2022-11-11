@@ -22,9 +22,9 @@ namespace NordicDoors.Controllers
         // GET: Suggestion
         public async Task<IActionResult> Index()
         {
-              return _context.Suggestion != null ? 
-                          View(await _context.Suggestion.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Suggestion'  is null.");
+            return _context.Suggestion != null ? 
+                        View(await _context.Suggestion.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbContext.Suggestion'  is null.");
         }
 
         // GET: Suggestion/Details/5
@@ -159,5 +159,5 @@ namespace NordicDoors.Controllers
         {
           return (_context.Suggestion?.Any(e => e.SuggestionID == id)).GetValueOrDefault();
         }
-    }
+    };  
 }
