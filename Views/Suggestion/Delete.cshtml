@@ -42,10 +42,10 @@
             @Html.DisplayFor(model => model.SugCategory)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EmployeeID)
+            @Html.DisplayNameFor(model => model.EmployeeId)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EmployeeID)
+            @Html.DisplayFor(model => model.EmployeeId)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ResponsibleEmp)
@@ -54,10 +54,10 @@
             @Html.DisplayFor(model => model.ResponsibleEmp)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TeamID)
+            @Html.DisplayNameFor(model => model.TeamId)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TeamID)
+            @Html.DisplayFor(model => model.TeamId)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.DueDate)
@@ -72,15 +72,15 @@
             @Html.DisplayFor(model => model.SugStatus)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IsJDI)
+            @Html.DisplayNameFor(model => model.IsJdi)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IsJDI)
+            @Html.DisplayFor(model => model.IsJdi)
         </dd>
     </dl>
     
     <form asp-action="Delete">
-        <input type="hidden" asp-for="SuggestionID" />
+        <input type="hidden" asp-for="SuggestionId" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
         <a asp-action="Index">Back to List</a>
     </form>

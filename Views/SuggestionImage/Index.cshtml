@@ -13,13 +13,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ImageURL)
+                @Html.DisplayNameFor(model => model.ImageUrl)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.SugState)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SuggestionID)
+                @Html.DisplayNameFor(model => model.SuggestionId)
             </th>
             <th></th>
         </tr>
@@ -28,18 +28,18 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.ImageURL)
+                @Html.DisplayFor(modelItem => item.ImageUrl)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SugState)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.SuggestionID)
+                @Html.DisplayFor(modelItem => item.SuggestionId)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.SuggestionImageID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.SuggestionImageID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.SuggestionImageID">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.SuggestionImageId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SuggestionImageId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SuggestionImageId">Delete</a>
             </td>
         </tr>
 }

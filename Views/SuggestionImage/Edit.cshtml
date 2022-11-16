@@ -12,11 +12,11 @@
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="SuggestionImageID" />
+            <input type="hidden" asp-for="SuggestionImageId" />
             <div class="form-group">
-                <label asp-for="ImageURL" class="control-label"></label>
-                <input asp-for="ImageURL" class="form-control" />
-                <span asp-validation-for="ImageURL" class="text-danger"></span>
+                <label asp-for="ImageUrl" class="control-label"></label>
+                <input asp-for="ImageUrl" class="form-control" />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
@@ -24,9 +24,9 @@
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="SuggestionID" class="control-label"></label>
-                <input asp-for="SuggestionID" class="form-control" />
-                <span asp-validation-for="SuggestionID" class="text-danger"></span>
+                <label asp-for="SuggestionId" class="control-label"></label>
+                <input asp-for="SuggestionId" class="form-control" />
+                <span asp-validation-for="SuggestionId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

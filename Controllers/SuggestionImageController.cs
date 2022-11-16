@@ -36,7 +36,7 @@ namespace NordicDoors.Controllers
             }
 
             var suggestionImage = await _context.SuggestionImage
-                .FirstOrDefaultAsync(m => m.SuggestionImageID == id);
+                .FirstOrDefaultAsync(m => m.SuggestionImageId == id);
             if (suggestionImage == null)
             {
                 return NotFound();
@@ -90,7 +90,7 @@ namespace NordicDoors.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("SuggestionImageID,ImageURL,SugState,SuggestionID")] SuggestionImage suggestionImage)
         {
-            if (id != suggestionImage.SuggestionImageID)
+            if (id != suggestionImage.SuggestionImageId)
             {
                 return NotFound();
             }
@@ -104,7 +104,7 @@ namespace NordicDoors.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!SuggestionImageExists(suggestionImage.SuggestionImageID))
+                    if (!SuggestionImageExists(suggestionImage.SuggestionImageId))
                     {
                         return NotFound();
                     }
@@ -127,7 +127,7 @@ namespace NordicDoors.Controllers
             }
 
             var suggestionImage = await _context.SuggestionImage
-                .FirstOrDefaultAsync(m => m.SuggestionImageID == id);
+                .FirstOrDefaultAsync(m => m.SuggestionImageId == id);
             if (suggestionImage == null)
             {
                 return NotFound();
@@ -157,7 +157,7 @@ namespace NordicDoors.Controllers
 
         private bool SuggestionImageExists(int id)
         {
-          return (_context.SuggestionImage?.Any(e => e.SuggestionImageID == id)).GetValueOrDefault();
+          return (_context.SuggestionImage?.Any(e => e.SuggestionImageId == id)).GetValueOrDefault();
         }
     }
 }

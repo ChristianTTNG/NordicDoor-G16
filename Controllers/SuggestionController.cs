@@ -36,7 +36,7 @@ namespace NordicDoors.Controllers
             }
 
             var suggestion = await _context.Suggestion
-                .FirstOrDefaultAsync(m => m.SuggestionID == id);
+                .FirstOrDefaultAsync(m => m.SuggestionId == id);
             if (suggestion == null)
             {
                 return NotFound();
@@ -90,7 +90,7 @@ namespace NordicDoors.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("SuggestionID,SugName,Description,RegisteredDate,CompletedDate,SugCategory,EmployeeID,ResponsibleEmp,TeamID,DueDate,SugStatus,IsJDI")] Suggestion suggestion)
         {
-            if (id != suggestion.SuggestionID)
+            if (id != suggestion.SuggestionId)
             {
                 return NotFound();
             }
@@ -104,7 +104,7 @@ namespace NordicDoors.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!SuggestionExists(suggestion.SuggestionID))
+                    if (!SuggestionExists(suggestion.SuggestionId))
                     {
                         return NotFound();
                     }
@@ -127,7 +127,7 @@ namespace NordicDoors.Controllers
             }
 
             var suggestion = await _context.Suggestion
-                .FirstOrDefaultAsync(m => m.SuggestionID == id);
+                .FirstOrDefaultAsync(m => m.SuggestionId == id);
             if (suggestion == null)
             {
                 return NotFound();
@@ -157,7 +157,7 @@ namespace NordicDoors.Controllers
 
         private bool SuggestionExists(int id)
         {
-          return (_context.Suggestion?.Any(e => e.SuggestionID == id)).GetValueOrDefault();
+          return (_context.Suggestion?.Any(e => e.SuggestionId== id)).GetValueOrDefault();
         }
     };  
 }

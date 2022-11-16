@@ -12,10 +12,10 @@
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImageURL)
+            @Html.DisplayNameFor(model => model.ImageUrl)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImageURL)
+            @Html.DisplayFor(model => model.ImageUrl)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.SugState)
@@ -24,15 +24,15 @@
             @Html.DisplayFor(model => model.SugState)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SuggestionID)
+            @Html.DisplayNameFor(model => model.SuggestionId)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SuggestionID)
+            @Html.DisplayFor(model => model.SuggestionId)
         </dd>
     </dl>
     
     <form asp-action="Delete">
-        <input type="hidden" asp-for="SuggestionImageID" />
+        <input type="hidden" asp-for="SuggestionImageId" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
         <a asp-action="Index">Back to List</a>
     </form>

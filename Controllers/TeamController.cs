@@ -36,7 +36,7 @@ namespace NordicDoors.Controllers
             }
 
             var team = await _context.Team
-                .FirstOrDefaultAsync(m => m.TeamID == id);
+                .FirstOrDefaultAsync(m => m.TeamId == id);
             if (team == null)
             {
                 return NotFound();
@@ -90,7 +90,7 @@ namespace NordicDoors.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("TeamID,TeamName,TeamSize")] Team team)
         {
-            if (id != team.TeamID)
+            if (id != team.TeamId)
             {
                 return NotFound();
             }
@@ -104,7 +104,7 @@ namespace NordicDoors.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TeamExists(team.TeamID))
+                    if (!TeamExists(team.TeamId))
                     {
                         return NotFound();
                     }
@@ -127,7 +127,7 @@ namespace NordicDoors.Controllers
             }
 
             var team = await _context.Team
-                .FirstOrDefaultAsync(m => m.TeamID == id);
+                .FirstOrDefaultAsync(m => m.TeamId == id);
             if (team == null)
             {
                 return NotFound();
@@ -157,7 +157,7 @@ namespace NordicDoors.Controllers
 
         private bool TeamExists(int id)
         {
-          return (_context.Team?.Any(e => e.TeamID == id)).GetValueOrDefault();
+          return (_context.Team?.Any(e => e.TeamId == id)).GetValueOrDefault();
         }
     }
 }

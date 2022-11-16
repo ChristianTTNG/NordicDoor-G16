@@ -36,7 +36,7 @@ namespace NordicDoors.Controllers
             }
 
             var comment = await _context.Comment
-                .FirstOrDefaultAsync(m => m.CommentID == id);
+                .FirstOrDefaultAsync(m => m.CommentId == id);
             if (comment == null)
             {
                 return NotFound();
@@ -90,7 +90,7 @@ namespace NordicDoors.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("CommentID,CommentDate,CommentContent,SugID")] Comment comment)
         {
-            if (id != comment.CommentID)
+            if (id != comment.CommentId)
             {
                 return NotFound();
             }
@@ -104,7 +104,7 @@ namespace NordicDoors.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CommentExists(comment.CommentID))
+                    if (!CommentExists(comment.CommentId))
                     {
                         return NotFound();
                     }
@@ -127,7 +127,7 @@ namespace NordicDoors.Controllers
             }
 
             var comment = await _context.Comment
-                .FirstOrDefaultAsync(m => m.CommentID == id);
+                .FirstOrDefaultAsync(m => m.CommentId == id);
             if (comment == null)
             {
                 return NotFound();
@@ -157,7 +157,7 @@ namespace NordicDoors.Controllers
 
         private bool CommentExists(int id)
         {
-          return (_context.Comment?.Any(e => e.CommentID == id)).GetValueOrDefault();
+          return (_context.Comment?.Any(e => e.CommentId == id)).GetValueOrDefault();
         }
     }
 }
