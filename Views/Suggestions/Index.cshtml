@@ -1,0 +1,95 @@
+﻿@model IEnumerable<NordicDoors.Models.Suggestion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SugName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SugDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegisteredDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompletedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SugCategory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SugCreator)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SugResponsible)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeamId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SugStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsJdi)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegisteredDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompletedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugCategory)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugCreator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugResponsible)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeamId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsJdi)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SuggestionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SuggestionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SuggestionId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,84 @@
+﻿@model NordicDoors.Models.Suggestion
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Suggestion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SuggestionId" />
+            <div class="form-group">
+                <label asp-for="SugName" class="control-label"></label>
+                <input asp-for="SugName" class="form-control" />
+                <span asp-validation-for="SugName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SugDescription" class="control-label"></label>
+                <input asp-for="SugDescription" class="form-control" />
+                <span asp-validation-for="SugDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RegisteredDate" class="control-label"></label>
+                <input asp-for="RegisteredDate" class="form-control" />
+                <span asp-validation-for="RegisteredDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompletedDate" class="control-label"></label>
+                <input asp-for="CompletedDate" class="form-control" />
+                <span asp-validation-for="CompletedDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SugCategory" class="control-label"></label>
+                <input asp-for="SugCategory" class="form-control" />
+                <span asp-validation-for="SugCategory" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SugCreator" class="control-label"></label>
+                <input asp-for="SugCreator" class="form-control" />
+                <span asp-validation-for="SugCreator" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SugResponsible" class="control-label"></label>
+                <input asp-for="SugResponsible" class="form-control" />
+                <span asp-validation-for="SugResponsible" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeamId" class="control-label"></label>
+                <input asp-for="TeamId" class="form-control" />
+                <span asp-validation-for="TeamId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EstTime" class="control-label"></label>
+                <input asp-for="EstTime" class="form-control" />
+                <span asp-validation-for="EstTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SugStatus" class="control-label"></label>
+                <input asp-for="SugStatus" class="form-control" />
+                <span asp-validation-for="SugStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsJdi" /> @Html.DisplayNameFor(model => model.IsJdi)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

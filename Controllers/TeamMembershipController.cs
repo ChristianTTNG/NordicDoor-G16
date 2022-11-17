@@ -56,7 +56,7 @@ namespace NordicDoors.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("TeamMembershipID,TeamID,EmployeeID")] TeamMembership teamMembership)
+        public async Task<IActionResult> Create([Bind("TeamMembershipID,TeamID,EmployeeId")] TeamMembership teamMembership)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace NordicDoors.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("TeamMembershipID,TeamID,EmployeeID")] TeamMembership teamMembership)
+        public async Task<IActionResult> Edit(int id, [Bind("TeamMembershipID,TeamID,EmployeeId")] TeamMembership teamMembership)
         {
             if (id != teamMembership.TeamMembershipId)
             {

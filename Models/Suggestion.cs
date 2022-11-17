@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NordicDoors.Models
 
@@ -8,17 +9,33 @@ namespace NordicDoors.Models
     {
         [Key]
         public int SuggestionId { get; set; }
-        public string? SugName { get; set; }
-        public string? Description { get; set; }
-        public string? RegisteredDate { get; set; }
-        public string? CompletedDate { get; set; }
+
+        [Required]
+        public string SugName { get; set; }
+
+        public string? SugDescription { get; set; }
+
+        [Required]
+        public DateOnly RegisteredDate { get; set; }
+
+        public DateOnly? CompletedDate { get; set; }
+
         public string? SugCategory { get; set; }
-        public int EmployeeId { get; set; }
-        public int ResponsibleEmp { get; set; }
+
+        [Required]
+        public string SugCreator { get; set; }
+
+        [Required]
+        public string SugResponsible { get; set; }
+
+        [Required]
         public int TeamId { get; set; }
-        public string? DueDate { get; set; }
+
+        public string? EstTime { get; set; }
+
         public string? SugStatus { get; set; }
-        public Boolean IsJdi { get; set; }
+
+        public bool IsJdi { get; set; } = false;
     }
 }
 

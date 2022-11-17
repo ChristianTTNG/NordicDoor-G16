@@ -15,11 +15,6 @@ public class Program
     static void Main(string[] args)
     {
 
-        /*var builder = WebApplication.CreateBuilder(new WebApplicationOptions
-        {
-            EnvironmentName = Environments.Development
-        });*/
-
         var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
