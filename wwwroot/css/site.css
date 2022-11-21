@@ -95,3 +95,28 @@ align-items:center;
 #ulx1 {
     text-align: center;
 }
+
+
+/*
+    brukes som overskrift i Mine Forslag
+*/
+
+
+.overskrift {
+  background-color: rgb(255, 255, 255);
+  font: arial;
+  font-size: 20px;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  vertical-align: top;
+  text-align: center;
+  transition: opacity 0.15s;
+}
