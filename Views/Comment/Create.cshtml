@@ -4,75 +4,99 @@
     ViewData["Title"] = "Create";
 }
 
+<section title="Legg til Side">
 
-<h3>Tittle</h3>
-<input type="text" name="" id="">
-<h3>Team</h3>
-<!-- form list -->
-<form action="">
-    <select id=" " name="team">
-        <option value="">Label1</option>
-        <option value="">Label2</option>
-        <option value="">Label3</option>
-        <option value="">Label4</option>
-    </select>
-</form>
+    <div class="d-flex align-items-center flex-column">
 
-<h3>Ansvarlig</h3>
-<!-- form list -->
-<form action="">
-    <select id=" " name="Ansvarlig">
-        <option value="">Label1</option>
-        <option value="">Label2</option>
-        <option value="">Label3</option>
-        <option value="">Label4</option>
-    </select>
-</form>
+        <h3>Tittle</h3>
+        <input type="text" name="" id="">
 
-<h3>Kategori</h3>
-<!-- form list -->
-<form action="">
-    <select id=" " name="kategorileggtilforslag">
-        <option value="">Label1</option>
-        <option value="">Label2</option>
-        <option value="">Label3</option>
-        <option value="">Label4</option>
-    </select>
-</form>
+        <!-- form list -->
 
-<h3>Just do it</h3>
-<input type="checkbox" name="JustdoitCheckbox" id="">
+        <section title="team">
 
-<h3>Legg til bilde</h3>
+            <div class="d-flex flex-row">
+                <h3>Team</h3>
+                <form action="">
+                    <select id=" " name="team">
+                        <option value="">Label1</option>
+                        <option value="">Label2</option>
+                        <option value="">Label3</option>
+                        <option value="">Label4</option>
+                    </select>
+                </form>
+            </div>
+        </section>
 
-<form action="">
-    <input type="file" id="" name="legg til bilde">
+        <section title="ansvarlig">
+            <div class="d-flex flex-row">
+                <h3>Ansvarlig</h3>
+                <!-- form list -->
+                <form action="">
+                    <select id=" " name="Ansvarlig">
+                        <option value="">Label1</option>
+                        <option value="">Label2</option>
+                        <option value="">Label3</option>
+                        <option value="">Label4</option>
+                    </select>
+                </form>
+            </div>
 
-    <h3>Beskrivelse</h3>
-    <input type="text" name="beskrivelseLeggTilForslag" id="">
-
-</form>
-<h3>Status</h3>
-
-<!-- form list -->
-<form action="">
-    <select id=" " name="status">
-        <option value="">Label1</option>
-        <option value="">Label2</option>
-        <option value="">Label3</option>
-        <option value="">Label4</option>
-    </select>
+        </section>
 
 
-    <h3>Framdrift</h3>
-    <input type="range" name="rangeframdrift">
-    <input type="submit" value="">
-</form>
+        <!-- form list -->
+
+        <section tittle="kategorileggtilforslag">
+            <div class="d-flex flex-row">
+                <h3>Kategori</h3>
+                <form action="">
+                    <select id=" " name="kategorileggtilforslag">
+                        <option value="">Label1</option>
+                        <option value="">Label2</option>
+                        <option value="">Label3</option>
+                        <option value="">Label4</option>
+                    </select>
+                </form>
+            </div>
+        </section>
+        <h3>Just do it</h3>
+        <input type="checkbox" name="JustdoitCheckbox" id="">
+
+        <h3>Legg til bilde</h3>
+
+        <form action="">
+            <input type="file" id="" name="legg til bilde">
+
+            <h3>Beskrivelse</h3>
+            <input type="text" name="beskrivelseLeggTilForslag" id="">
+
+        </form>
+        <h3>Status</h3>
+
+        <!-- form list -->
+        <form action="">
+            <select id=" " name="status">
+                <option value="">Label1</option>
+                <option value="">Label2</option>
+                <option value="">Label3</option>
+                <option value="">Label4</option>
+            </select>
 
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+            <h3>Framdrift</h3>
+            <input type="range" name="rangeframdrift">
+            <input type="submit" value="">
+        </form>
+
+
+        <div>
+            <a asp-action="Index">Back to List</a>
+        </div>
+
+    </div>
+   
+</section>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
