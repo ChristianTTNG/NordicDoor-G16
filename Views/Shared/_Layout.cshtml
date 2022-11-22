@@ -21,40 +21,70 @@
 
 </head>
 <body>
-
+    
     <header>
-        <nav class="navbar navbar-light navbar-expand-lg fixed-top" style="background-color: #CDD2D8;">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NORDICDOOR</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <section title="navigationbar">
 
-                <div class="navbar-collapse collapse justify-content-between">
-                    <ul class="navbar-nav flex-grow-1" id="ulx1">
+            <!-- NEW NAVIGATION BAR ________________________-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Suggestion"
-                               asp-action="Index">Forbedringsforslag</a>
-                        </li>
-                        <li class="nav-item">
+                    <!-- Navn til Nordicdoor -->
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NORDICDOOR</a>
 
-                            <!-- Mine forslag Anchor link -->
-                            <a class="nav-link text-dark" asp-area="" asp-controller="MineForslag"
-                               asp-action="Index">Mine Forslag</a>
-                        </li>
-                        <li class="nav-item">
-                            <!-- Legg forslag (Asp controller chooses folder Comment -> Open Create razor page ) -->
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Comment" asp-action="Create">Legg Forslag</a>
-                        </li>
-                    </ul>
+                    <!-- Button for mobile hamburger-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- this is the navbar phone collapse navbar collapse-->
+                    <div class="collapse navbar-collapse" id="navbarColor03">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+
+                                <!-- Anchor for suggestion -->
+                                <a class="nav-link active"
+                                   asp-area="" asp-controller="Suggestion"
+                                   asp-action="Index">
+                                    Forbedringsforslag
+                                    <span class="visually-hidden">(current)</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+
+                                <!-- Anchor for Forbedringsforslag Admin -->
+                                <a class="nav-link" asp-area="" asp-controller="Suggestion"
+                                   asp-action="Index">Forbedringsforslag</a>
+                            </li>
+
+                            <!-- here -->
+                            <li class="nav-item">
+                                <!-- Anchor for Mine forslag -->
+                                <a class="nav-link" asp-area="" asp-controller="MineForslag"
+                                   asp-action="Index">Mine Forslag</a>
+                            </li>
+                            <li class="nav-item">
+
+                                <!-- Anchor for Legg forslag-->
+                                <a class="nav-link" asp-area="" asp-controller="Comment" asp-action="Create">Legg Forslag</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
                 </div>
-            </div>
-        </nav>
 
-        <div style="margin-top:80px"></div>
+            </nav>
+
+        </section>
+
+
+        <!-- NEW NAVIGATION BAR ________________________-->
+
+
 
     </header>
 
@@ -72,13 +102,16 @@
         </div>
     </footer>
 
+
+
+
+
+
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-
-
 
 
 
