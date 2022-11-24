@@ -138,6 +138,10 @@ input {
   width         : 35rem;
 }
 
+.date {
+  display       : flex;
+  flex-direction: column;
+}
 
 .statusx {
   display    : flex;
@@ -150,4 +154,8 @@ input {
   display        : flex;
   padding        : 1rem;
   justify-content: center;
+}
+
+#framdrift {
+  width: 25rem;
 }
