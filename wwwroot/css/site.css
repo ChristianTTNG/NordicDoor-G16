@@ -1,34 +1,105 @@
-﻿html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
+﻿/* global styling in html file */
 
 html {
-  position: relative;
-  min-height: 100%;
+  /* all the font size to 12px of size of screen ratio */
+  font-size: 0.75rem;
 }
+
 
 * {
 
-margin:0;
-padding: 0;
+  margin : 0;
+  padding: 0;
 
 }
 
-/* working on the index cshtml home Page */
+
+.body {
+
+  background-color: #FFD6AF;
+  align-content   : center;
+  justify-content : center;
+  align-items     : center;
+}
 
 
 
+/* ------------------------------------------ */
+
+/* main style code for create.cshtml */
+
+/* this is the css for responsive for phone */
 
 @media (min-width: 768px) {
+  .createcs {
+    height: 100vh;
 
+    background-color: white;
+  }
 
-     
+  .teambo1 {}
 
 }
 
+/* css for the createcshtml container */
+
+.createcs {
+  background-color: white;
+  display         : flex;
+  justify-content : center;
+  flex-direction  : column;
+  align-items     : center;
+  height          : 80vh;
+  margin          : 2rem;
+  border-radius   : 2rem;
+}
+
+.tittle1 {
+  display        : flex;
+  flex-direction : row;
+  width          : 30%;
+  justify-content: space-between;
+}
+
+.teambo1 {
+  display            : flex;
+  justify-items      : baseline;
+  align-items        : center;
+  margin             : 2rem 0;
+  width              : 30%;
+  justify-content    : space-between;
+  /* flex-direction  : row; */
+
+}
+
+.teambo2 {
+
+  display         : flex;
+  flex-direction  : row;
+  background-color: blueviolet;
+  width           : 65%;
+}
+
+/* Button dropdown */
+select {
+
+  background-color: #C49E85;
+  border-radius   : 0.3rem;
+  height          : 2rem;
+  width           : 12rem;
+  color           : white;
+}
+
+.option {
+  background-color: #C49E85;
+
+  height: 2rem;
+  width : 12rem;
+
+}
+
+/* Input style */
+
+input {
+  width: 12rem;
+}

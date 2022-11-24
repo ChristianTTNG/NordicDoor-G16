@@ -1,109 +1,106 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
 
+   <title>@ViewData["Title"] - NordicDoors</title>
+   <!-- Old stylesheet bootstrap-->
+   <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> -->
 
-    <title>@ViewData["Title"] - NordicDoors</title>
-    <!-- Old stylesheet bootstrap-->
-    <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> -->
-
-    <!-- Local Stylesheets -->
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/NordicDoors.styles.css" asp-append-version="true" />
+   <!-- Local Stylesheets -->
+   <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+   <link rel="stylesheet" href="~/NordicDoors.styles.css" asp-append-version="true" />
 
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-<body>
-   
-    <header>
 
-        <section title="navigationbar">
+<body class="body">
 
-            <!-- NEW NAVIGATION BAR ________________________-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
+   <header>
 
-                    <!-- Navn til Nordicdoor -->
-                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NORDICDOOR</a>
+      <section title="navigationbar">
 
-                    <!-- Button for mobile hamburger-->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+         <!-- NEW NAVIGATION BAR ________________________-->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
 
-                    <!-- this is the navbar phone collapse navbar collapse-->
-                    <div class="collapse navbar-collapse" id="navbarColor03">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
+               <!-- Navn til Nordicdoor -->
+               <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NORDICDOOR</a>
 
-                                <!-- Anchor for suggestion -->
-                                <a class="nav-link active"
-                                   asp-area="" asp-controller="Suggestion"
-                                   asp-action="Index">
-                                    Forbedringsforslag
-                                    <span class="visually-hidden">(current)</span>
-                                </a>
-                            </li>
+               <!-- Button for mobile hamburger-->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                  aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
 
-                            <li class="nav-item">
+               <!-- this is the navbar phone collapse navbar collapse-->
+               <div class="collapse navbar-collapse" id="navbarColor03">
+                  <ul class="navbar-nav me-auto">
 
-                                <!-- Anchor for Forbedringsforslag Admin -->
-                                <a class="nav-link" asp-area="" asp-controller="Suggestion"
-                                   asp-action="Index">Forbedringsforslag</a>
-                            </li>
+                     <li class="nav-item">
+
+                        <!-- Anchor for Forbedringsforslag Admin -->
+                        <a class="nav-link" asp-area="" asp-controller="Suggestion"
+                           asp-action="Index">Forbedringsforslag</a>
+                     </li>
 
 
-                            <li class="nav-item">
-                                <!-- Anchor for Mine forslag -->
-                                <a class="nav-link" asp-area="" asp-controller="MineForslag"
-                                   asp-action="Index">Mine Forslag</a>
-                            </li>
-                            <li class="nav-item">
+                     <li class="nav-item">
+                        <!-- Anchor for Mine forslag -->
+                        <a class="nav-link" asp-area="" asp-controller="MineForslag" asp-action="Index">Mine
+                           Forslag</a>
+                     </li>
+                     <li class="nav-item">
 
-                                <!-- Anchor for Legg forslag-->
-                                <a class="nav-link" asp-area="" asp-controller="Comment" asp-action="Create">Legg Forslag</a>
-                            </li>
+                        <!-- Anchor for Legg forslag-->
+                        <a class="nav-link" asp-area="" asp-controller="Comment" asp-action="Create">Legg
+                           Forslag</a>
+                     </li>
 
-                        </ul>
+                  </ul>
 
-                    </div>
+               </div>
 
-                </div>
+            </div>
 
-            </nav>
+         </nav>
 
-        </section>
-
-
-        <!-- END NAVIGATION BAR ________________________-->
-
-    </header>
+      </section>
 
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+      <!-- END NAVIGATION BAR ________________________-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   </header>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+
+   <div class="container">
+      <main role="main" class="pb-3">
+         @RenderBody()
+      </main>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+   <!-- Option 2: Separate Popper and Bootstrap JS -->
+   <!--
      <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+   <script src="~/js/site.js" asp-append-version="true"></script>
+   @await RenderSectionAsync("Scripts", required: false)
 
 
 
 
 </body>
+
 </html>
