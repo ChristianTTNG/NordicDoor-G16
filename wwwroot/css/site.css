@@ -20,103 +20,15 @@ padding: 0;
 
 }
 
-/* --------------------------------------- */
-/* VIEWS -> HOME -> INDEX CSHTML  */
+/* working on the index cshtml home Page */
 
-/* Fix div element of search */
-.searchBar {
-    margin: 2rem;
-    display: block;
-    margin: auto;
-}
 
-/* Search Input style  */
-.input {
-    text-align:center;
-    border-radius: 1rem;
-}
 
-/* Mine Forslag box */
-.mineforslag {
-    text-align:center;
-    background-color:lightgrey;
-    height: 20rem;
-    width: 80%;
-    /* outside the box */
-    margin:1rem;
-    /* Inside the box */
-    padding: 1rem 1rem;
-    border-radius: 1rem;
+
+@media (min-width: 768px) {
+
+
+     
 
 }
 
-/* Layout module framework css for align */
-.flexboxcss {
-display:flex;
-justify-content:center;
-flex-direction: column;
-align-items:center;
-}
-
-/* Siste Forslag box */
-.sisteforslag {
-    text-align: center;
-    background-color: lightgrey;
-    height: 20rem;
-    width: 80%;
-    /* outside the box */
-    margin: 1rem;
-    /* Inside the box */
-    padding: 1rem 1rem;
-    border-radius: 1rem;
-}
-
-/* Inside box av Mine forslag */
-.mineforslagbox, .sisteforslagbox {
-
-    background-color:white;
-    height:60%;
-    border-radius:1rem;
-}
-
-/* button opprett forslag */
-.buttonhome {
-    background-color: darkgreen;
-    color:white;
-    border-radius:0.5rem;
-}
-
-/* END VIEWS -> HOME -> INDEX CSHTML  */
-
-/* --------------------------------------- */
-/* VIEWS -> SHARED -> LAYOUT CSHTML   */
-
-/* Center the items on the dropdown */
-#ulx1 {
-    text-align: center;
-}
-
-
-/*
-    brukes som overskrift i Mine Forslag
-*/
-
-
-.overskrift {
-  background-color: rgb(255, 255, 255);
-  font: arial;
-  font-size: 20px;
-  color: black;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-  margin-right: 8px;
-  margin-left: 20px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
-  vertical-align: top;
-  text-align: center;
-  transition: opacity 0.15s;
-}
