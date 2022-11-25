@@ -5,101 +5,100 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NordicDoorTestingrep
 build_property.RootNamespace = NordicDoorTestingrep
-build_property.ProjectDir = /Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/
+build_property.ProjectDir = C:\Users\christian\Source\Repos\NordicDoor-G16\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/cliffordv/Documents/IT_Projects/NordicDoor-G16
+build_property.MSBuildProjectDirectory = C:\Users\christian\Source\Repos\NordicDoor-G16
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Employees/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWVzL0NyZWF0ZS5jc2h0bWw=
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Employees/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWVzL0RlbGV0ZS5jc2h0bWw=
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Employees/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWVzL0RldGFpbHMuY3NodG1s
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Employees/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWVzL0VkaXQuY3NodG1s
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Employees/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWVzL0luZGV4LmNzaHRtbA==
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Suggestions/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VnZ2VzdGlvbnMvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Suggestions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZ2VzdGlvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Suggestions/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VnZ2VzdGlvbnMvRGVsZXRlLmNzaHRtbA==
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Suggestions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZ2VzdGlvbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Suggestions/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VnZ2VzdGlvbnMvRGV0YWlscy5jc2h0bWw=
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Suggestions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZ2VzdGlvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Suggestions/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VnZ2VzdGlvbnMvRWRpdC5jc2h0bWw=
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Suggestions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZ2VzdGlvbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Suggestions/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VnZ2VzdGlvbnMvSW5kZXguY3NodG1s
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Suggestions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZ2VzdGlvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Teams/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhbXMvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Teams/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Teams/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhbXMvRGVsZXRlLmNzaHRtbA==
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Teams/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Teams/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhbXMvRGV0YWlscy5jc2h0bWw=
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Teams/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Teams/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhbXMvRWRpdC5jc2h0bWw=
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Teams/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Teams/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhbXMvSW5kZXguY3NodG1s
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Teams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-t2izpcfylb
+[C:/Users/christian/Source/Repos/NordicDoor-G16/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ku8xq8uofy

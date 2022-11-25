@@ -1,14 +1,10 @@
 ﻿@model IEnumerable<NordicDoorTestingrep.Models.Suggestion>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Legg til forslag</a>
-</p>
 <p>
     <!--using (Html.BeginForm())
     {
@@ -111,35 +107,40 @@
     <!-- her kan man sortere info -->
     <div class="navbarforslag1">
 
-        <div class="boxavmineforslagliste">
-            <p>status</p>
+        <div> </div>
+
+        <div class="boxavmineforslagliste, forslagtittel">
+            <h3>Status</h3>
 
         </div>
-        <div class="boxavmineforslagliste">
-            <p>forslag liste</p>
+        <div class="boxavmineforslagliste, forslagtittel">
+            <h3>Tittel</h3>
 
         </div>
-        <div class="boxavmineforslagliste">
-            <p>Brukernavn</p>
+        <div class="boxavmineforslagliste, forslagtittel">
+            <h3>Brukernavn</h3>
 
         </div>
-        <div class="boxavmineforslagliste">
-            <p>type</p>
+
+        
+        <div class="boxavmineforslagliste, forslagtittel">
+            <h3>Kategori</h3>
 
         </div>
-        <div class="boxavmineforslagliste">
-            <p>Mer info</p>
+        <div> </div>
+        <div> </div>
 
-        </div>
+
     </div>
     <!-- --------------------------------- -->
 
     @foreach (var item in Model) {
-        <div class="boxavmineforslag">
+
+        <div class="boxavmineforslag" >
 
             <!-- Status av forslag -->
             <div class="boxavmineforslagliste" class="statusforslag">
-                <p>@Html.DisplayFor(modelItem => item.SugStatus)</p>
+                <h5>@Html.DisplayFor(modelItem => item.SugStatus)</h5>
             </div>
             <!-- Forslag Navn og info -->
             <div class="boxavmineforslagliste" id="forslaglistee">
@@ -147,19 +148,16 @@
                 <p class="forslagnavn">@Html.DisplayFor(modelItem => item.SugName)</p>
             </div>
             <div class="boxavmineforslagliste" class="userlist">
-                <p>@Html.DisplayFor(modelItem => item.ResponsibleEmployee.EmpName)</p>
+                <h5>@Html.DisplayFor(modelItem => item.ResponsibleEmployee.EmpName)</h5>
             </div>
             <div class="boxavmineforslagliste" class="typelisteforslag">
-                <p>@Html.DisplayFor(modelItem => item.SugCategory)</p>
+                <h6>@Html.DisplayFor(modelItem => item.SugCategory)</h6>
             </div>
-            <div class="boxavmineforslagliste" class="buttonxlisteforslag">
-                <button type="button" class="btn btn-light"><p>Mer</p>
-            </div>
-
+            
             <div>
-                <a asp-action="Edit" asp-route-id="@item.SuggestionId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.SuggestionId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.SuggestionId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.SuggestionId">Endre</a> |
+                <a asp-action="Details" asp-route-id="@item.SuggestionId">Mer info</a> |
+                <a asp-action="Delete" asp-route-id="@item.SuggestionId">Slett</a>
             </div>
         </div>
     } 

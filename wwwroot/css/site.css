@@ -181,8 +181,13 @@ input {
 
 }
 
-.boxavmineforslag {
+.forslagtittel {
+  
+    padding: 4px; 
+}
 
+.boxavmineforslag {
+ 
   height          : 8rem;
   border-radius   : 1rem;
   background-color: white;

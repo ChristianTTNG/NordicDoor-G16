@@ -33,7 +33,7 @@ namespace NordicDoorTestingrep.Controllers
 
 
 
-
+           
             return View(await nordicDoorContext.ToListAsync());
         }
 
@@ -88,9 +88,9 @@ namespace NordicDoorTestingrep.Controllers
         // GET: Suggestions/Create
         public IActionResult Create()
         {
-            ViewData["ResponsibleEmployeeID"] = new SelectList(_context.Employee, "EmployeeId", "EmployeeId");
-            ViewData["SugCreatorID"] = new SelectList(_context.Employee, "EmployeeId", "EmployeeId");
-            ViewData["TeamID"] = new SelectList(_context.Team, "TeamID", "TeamID");
+            ViewData["ResponsibleEmployeeID"] = new SelectList(_context.Employee, "EmployeeId", "EmpName");
+            ViewData["SugCreatorID"] = new SelectList(_context.Employee, "EmployeeId", "EmpName");
+            ViewData["TeamID"] = new SelectList(_context.Team, "TeamID", "TeamName");
             return View();
         }
 
@@ -103,7 +103,7 @@ namespace NordicDoorTestingrep.Controllers
         {
             if (ModelState.IsValid)
             {
-                
+
 
                 /*var uploadedAttachment = Array.Empty<byte>();
                  
@@ -117,6 +117,7 @@ namespace NordicDoorTestingrep.Controllers
                     }
                 }*/
 
+                suggestion.RegisteredDate = DateTime.Now;
                 _context.Add(suggestion);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -147,9 +148,9 @@ namespace NordicDoorTestingrep.Controllers
             {
                 return NotFound();
             }
-            ViewData["ResponsibleEmployeeID"] = new SelectList(_context.Employee, "EmployeeId", "EmployeeId", suggestion.ResponsibleEmployeeID);
-            ViewData["SugCreatorID"] = new SelectList(_context.Employee, "EmployeeId", "EmployeeId", suggestion.SugCreatorID);
-            ViewData["TeamID"] = new SelectList(_context.Team, "TeamID", "TeamID", suggestion.TeamID);
+            ViewData["ResponsibleEmployeeID"] = new SelectList(_context.Employee, "EmployeeId", "EmpName");
+            ViewData["SugCreatorID"] = new SelectList(_context.Employee, "EmployeeId", "EmpName");
+            ViewData["TeamID"] = new SelectList(_context.Team, "TeamID", "TeamName");
             return View(suggestion);
         }
 
