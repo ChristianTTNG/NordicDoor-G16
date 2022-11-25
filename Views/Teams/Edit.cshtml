@@ -1,4 +1,4 @@
-﻿@model NordicDoorTestingrep.Models.Team
+﻿@model NordicDoorTestingrep.Models.TeamViewModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -17,6 +17,23 @@
                 <label asp-for="TeamName" class="control-label"></label>
                 <input asp-for="TeamName" class="form-control" />
                 <span asp-validation-for="TeamName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employees" class="control-label"></label>
+                <span asp-validation-for="Employees" class="text-danger"></span>
+
+                <div class="d-flex flex-column">
+                    @for (int i = 0; i < Model.Employees.Count(); i++)
+                    {
+                        <div style="float:left">
+                            @Html.EditorFor(m => Model.Employees[i].Checked, new { htmlAttributes = new { @style="width: auto" } })
+                            @Html.DisplayFor(m => Model.Employees[i].Name)
+
+                            @Html.HiddenFor(m => Model.Employees[i].Name)
+                            @Html.HiddenFor(m => Model.Employees[i].Id)
+                        </div>
+                    }
+                </div>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

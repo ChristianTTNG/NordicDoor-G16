@@ -40,7 +40,30 @@ namespace NordicDoorTestingrep.Controllers
                 return NotFound();
             }
 
-            return View(team);
+            var Results = from e in _context.Employee
+                          select new
+                          {
+                              e.EmployeeId,
+                              e.EmpName,
+                              Checked = ((from tm in _context.TeamMembership
+                                          where (tm.TeamID == id) & (tm.EmployeeID == e.EmployeeId)
+                                          select tm).Count() > 0)
+                          };
+
+            var MyViewModel = new TeamViewModel();
+
+            MyViewModel.TeamID = id.Value;
+            MyViewModel.TeamName = team.TeamName;
+
+            var MyCheckBoxList = new List<CheckBoxViewModel>();
+
+            foreach (var item in Results)
+            {
+                MyCheckBoxList.Add(new CheckBoxViewModel { Id = item.EmployeeId, Name = item.EmpName, Checked = item.Checked });
+            }
+            MyViewModel.Employees = MyCheckBoxList;
+
+            return View(MyViewModel);
         }
 
         // GET: Teams/Create
@@ -78,7 +101,31 @@ namespace NordicDoorTestingrep.Controllers
             {
                 return NotFound();
             }
-            return View(team);
+
+            var Results = from e in _context.Employee
+                          select new
+                          {
+                              e.EmployeeId,
+                              e.EmpName,
+                              Checked = ((from tm in _context.TeamMembership
+                                          where (tm.TeamID == id) & (tm.EmployeeID == e.EmployeeId)
+                                          select tm).Count() > 0)
+                          };
+
+            var MyViewModel = new TeamViewModel();
+
+            MyViewModel.TeamID = id.Value;
+            MyViewModel.TeamName = team.TeamName;
+
+            var MyCheckBoxList = new List<CheckBoxViewModel>();
+
+            foreach (var item in Results)
+            {
+                MyCheckBoxList.Add(new CheckBoxViewModel { Id = item.EmployeeId, Name = item.EmpName, Checked = item.Checked });
+            }
+            MyViewModel.Employees = MyCheckBoxList;
+
+            return View(MyViewModel);
         }
 
         // POST: Teams/Edit/5
@@ -86,7 +133,7 @@ namespace NordicDoorTestingrep.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("TeamID,TeamName")] Team team)
+        public async Task<IActionResult> Edit(int id, TeamViewModel team)
         {
             if (id != team.TeamID)
             {
@@ -97,7 +144,25 @@ namespace NordicDoorTestingrep.Controllers
             {
                 try
                 {
-                    _context.Update(team);
+                    var MyTeam = _context.Team.Find(team.TeamID);
+
+                    MyTeam.TeamName = team.TeamName;
+
+                    foreach (var item in _context.TeamMembership)
+                    {
+                        if (item.TeamID == team.TeamID)
+                        {
+                            _context.Entry(item).State = EntityState.Deleted;
+                        }
+                    }
+                    foreach (var item in team.Employees)
+                    {
+                        if (item.Checked)
+                        {
+                            _context.TeamMembership.Add(new TeamMembership() { TeamID = team.TeamID, EmployeeID= item.Id });
+                        }
+                    }
+
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
