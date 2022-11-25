@@ -233,20 +233,23 @@ p {
   height          : 100vh;
   width           : 100%;
   background-color: whitesmoke;
+  border-radius   : 2rem;
+  resize          : both;
+  overflow        : auto;
 }
 
 .minefoslagcontainerchild {
 
-  background-color: aquamarine;
-  margin-top      : 1rem
+
+  margin-top: 1rem;
 }
 
 .box11 {
-  height          : 8rem;
-  margin          : 1rem 0;
-  width           : 80%;
-  background-color: red;
-  border          : solid black;
-  border-radius   : 1rem;
+  height: 8rem;
+  margin: 1rem 0;
+  width : 60%;
+
+  border       : solid black;
+  border-radius: 1rem;
 
 }
