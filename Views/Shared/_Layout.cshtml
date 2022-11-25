@@ -28,38 +28,33 @@
         <section title="navigationbar">
 
             <!-- NEW NAVIGATION BAR ________________________-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:white">
+
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-
-                    <!-- Navn til Nordicdoor -->
-                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NORDICDOOR</a>
-
-                    <!-- Button for mobile hamburger-->
+                    <a class="navbar-brand" href="#">NoordicDoor</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <!-- this is the navbar phone collapse navbar collapse-->
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                    <div class="collapse navbar-collapse" id="navbarColor03">
                         <ul class="navbar-nav me-auto">
-
-                            <!---->
                             <li class="nav-item">
-
                                 <!-- Anchor for Forbedringsforslag Admin -->
                                 <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
                                     Hjem
                                 </a>
                             </li>
-
-
                             <li class="nav-item">
+
                                 <!-- Anchor for Forslag -->
                                 <a class="nav-link" asp-area="" asp-controller="Suggestions" asp-action="Index">
                                     Forslag
                                 </a>
+
+
                             </li>
                             <li class="nav-item">
                                 <!-- Anchor for Legg til forslag-->
@@ -73,20 +68,36 @@
                                     Teams oversikt
                                 </a>
                             </li>
+
                             <li class="nav-item">
+                                <!-- Anchor for Teams-->
                                 <!-- Anchor for Legg til ansatte-->
                                 <a class="nav-link" asp-area="" asp-controller="Employees" asp-action="Index">
                                     Ansatte
                                 </a>
                             </li>
 
-                        </ul>
+
+                            <li class="nav-item dropdown">
 
                     </div>
+                    </li>
+                    </ul>
 
                 </div>
-
+                </div>
             </nav>
+
+
+
+
+
+
+
+
+
+
+
 
         </section>
 
