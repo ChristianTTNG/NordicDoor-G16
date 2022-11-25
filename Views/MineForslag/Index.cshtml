@@ -1,62 +1,114 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Mine Forslag";
 }
-
-<style>
-    .overskrift {
-        background-color: rgb(255, 255, 255);
-        font: arial;
-        font-size: 20px;
-        color: black;
-
-        border: none;
-        border-radius: 2px;
-        cursor: pointer;
-        margin-right: 8px;
-        margin-left: 20px;
-        padding-top: 30px;
-        padding-bottom: 10px;
-        padding-left: 16px;
-        padding-right: 16px;
-        vertical-align: top;
-        text-align: center;
-        transition: opacity 0.15s;
-    }
-
-    .box1{
-
-    }
-
-</style>
-
-
 <h1 class="overskrift">MINE FORSLAG</h1>
 
+<div class="forslagside">
 
-<div class="box1">
-    <form action="" method="">
-        <table>
-            <tr>
-                <td>Enter ID: </td>
-                <td><input type="text" name="txtId" /></td>
-            </tr>
-            <tr>
-                <td>Enter Name: </td>
-                <td><input type="text" name="txtName" /></td>
-            </tr>
-            <tr>
-                <td>Addon: </td>
-                <td><input type="checkbox" name="chkAddon" /></td>
-            </tr>
-            <tr>
-                <td colspan="2"><input type="submit" value="Submit Form" /></td>
-            </tr>
-        </table>
-    </form>
+
+    <!-- her kan man sortere info -->
+    <div class="navbarforslag1">
+
+        <div class="boxavmineforslagliste">
+            <p>status</p>
+
+        </div>
+        <div class="boxavmineforslagliste">
+            <p>forslag liste</p>
+
+        </div>
+        <div class="boxavmineforslagliste">
+            <p>Brukernavn</p>
+
+        </div>
+        <div class="boxavmineforslagliste">
+            <p>type</p>
+
+        </div>
+        <div class="boxavmineforslagliste">
+            <p>Mer info</p>
+
+        </div>
+    </div>
+    <!-- --------------------------------- -->
+
+
+    <div class="boxavmineforslag">
+
+        <!-- Status av forslag -->
+        <div class="boxavmineforslagliste" class="statusforslag">
+            <p>active</p>
+        </div>
+        <!-- Forslag Navn og info -->
+        <div class="boxavmineforslagliste" id="forslaglistee">
+
+            <p class="forslagnavn">Blue Door</p>
+            <p class="forslagnavndesc">løren ipsum </p>
+        </div>
+        <div class="boxavmineforslagliste" class="userlist">
+            <p>Cliffey V</p>
+        </div>
+        <div class="boxavmineforslagliste" class="typelisteforslag">
+            <p>Plan</p>
+        </div>
+        <div class="boxavmineforslagliste" class="buttonxlisteforslag">
+            <button type="button">Mer</p>
+        </div>
+    </div>
+
+
+    <div class="boxavmineforslag">
+
+        <!-- Status av forslag -->
+        <div class="boxavmineforslagliste" class="statusforslag">
+            <p>Done</p>
+        </div>
+        <!-- Forslag Navn og info -->
+        <div class="boxavmineforslagliste" id="forslaglistee">
+
+            <p class="forslagnavn">Brown Square Door</p>
+            <p class="forslagnavndesc">løren ipsum </p>
+        </div>
+        <div class="boxavmineforslagliste" class="userlist">
+            <p>Jakob S</p>
+        </div>
+        <div class="boxavmineforslagliste" class="typelisteforslag">
+            <p>Just do It</p>
+        </div>
+        <div class="boxavmineforslagliste" class="buttonxlisteforslag">
+            <button type="button">Mer</p>
+        </div>
+    </div>
+    <div class="boxavmineforslag">
+
+        <!-- Status av forslag -->
+        <div class="boxavmineforslagliste" class="statusforslag">
+            <p>progress</p>
+        </div>
+        <!-- Forslag Navn og info -->
+        <div class="boxavmineforslagliste" id="forslaglistee">
+
+            <p class="forslagnavn">Orange Gold Frame</p>
+            <p class="forslagnavndesc">løren ipsum </p>
+        </div>
+        <div class="boxavmineforslagliste" class="userlist">
+            <p>Marco C</p>
+        </div>
+        <div class="boxavmineforslagliste" class="typelisteforslag">
+            <p>To Do</p>
+        </div>
+        <div class="boxavmineforslagliste" class="buttonxlisteforslag">
+            <button type="button">Mer</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
 
 </div>
 
-<button type="button" class="overskrift">
-   REDIGER
-</button>
+</div>
