@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{E9DB9931-4F1A-4D52-8C18-EC634B0FAB61}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NordicDoors PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Views/Shared/_Layout.cshtml" Line="30" Column="1" NotebookId="2" IsPinned="True" />
+    </Files>
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="622" Y="494" Width="851" Height="706">
+        <Files>
+          <File FileName="Views/Comment/Create.cshtml" Line="1" Column="1" />
+        </Files>
+      </FloatingWindow>
+      <FloatingWindow WindowId="2" X="1133" Y="486" Width="851" Height="706">
+        <Files>
+          <File FileName="wwwroot/css/site.css" Line="30" Column="1" NotebookId="1" />
+          <File FileName="Views/loginfolder/HomeController.cs" Line="1" Column="1" NotebookId="1" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NordicDoors" expanded="True">
+            <Node name="NordicDoors" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="SuggestionController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Comment" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="loginfolder" expanded="True" />
+                <Node name="MineForslag" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Suggestion" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True" />
+                  <Node name="jquery" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
