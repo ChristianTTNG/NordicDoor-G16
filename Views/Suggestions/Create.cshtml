@@ -1,0 +1,146 @@
+﻿@model NordicDoorTestingrep.Models.Suggestion
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div title="Legg til Side">
+
+    <div class=" createcs" style="height:fit-content; padding: 15px">
+        <form enctype="multipart/form-data" asp-action="Create" style="width: 100%" class="minefoslagcontainerchild d-flex flex-column  justify-content-center align-items-center">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h1>Legg til forslag </h1>
+            <div class="tittle1">
+                <div class="x2">
+                    <h3>Tittel</h3>
+                </div>
+
+                <div style="margin-left: 10px" class="form-group">
+                    <input asp-for="SugName" class="form-control, input" type="text">
+                    <span asp-validation-for="SugName" class="text-danger"></span>
+                </div>
+
+            </div>
+            <!-- form list ------------------------------------>
+
+
+            <div class="teambo1">
+                <div class="x2">
+                    <h3>Team</h3>
+                </div>
+                <div class="form-group">
+                    <select asp-for="TeamID" class="form-control" style="min-width: 100px" asp-items="ViewBag.TeamID"></select>
+                </div>
+            </div>
+
+            <div class="teambo1">
+                <div class="x2">
+                    <h3>Ansvarlig</h3>
+                </div>
+                <div class="form-group">
+                    <select asp-for="ResponsibleEmployeeID" class="form-control" style="min-width: 100px" asp-items="ViewBag.ResponsibleEmployeeID"></select>
+                </div>
+            </div>
+            <div class="teambo1">
+                <div class="x2">
+                    <h3>Skaper</h3>
+                </div>
+                <div class="form-group">
+                    <select asp-for="SugCreatorID" class="form-control" style="min-width: 100px" asp-items="ViewBag.SugCreatorID"></select>
+                </div>
+            </div>
+            <div class="teambo1">
+                <div class="x2">
+                    <h3>Kategori</h3>
+                </div>
+                <div style="margin-left: 10px; min-width: 100px" class="form-group"> 
+                    <select asp-for="SugCategory" class="form-control">
+                        <option value="" selected disabled>Velg en kategori</option>
+                        <option value="HMS">HMS</option>
+                        <option value="Kvalitet">Kvalitet</option>
+                        <option value="Ledetid">Ledetid</option>
+                        <option value="Kostnader">Kostnader</option>
+                        <option value="Effektivisering">Effektivisering</option>
+                        <option value="Kompetanse">Kompetanse</option>
+                        <option value="Kommunikasjon">Kommunikasjon</option>
+                        <option value="5S">5S</option>
+                        <option value="Standardisering">Standardisering</option>
+                        <option value="Flyt">Flyt</option>
+                        <option value="Visualisering">Visualisering</option>
+                        <option value="Bærekraft">Bærekraft</option>
+                        <option value="Industri 4.0">Industri 4.0</option>
+                    </select>
+                    <span asp-validation-for="SugCategory" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="teambo1">
+                <div class="x2">
+                    <h3>Status</h3>
+                </div>
+                <div style="margin-left: 10px; min-width: 100px">
+                    <select asp-for="SugStatus" class="form-control">
+                        <option value="" selected disabled>Velg en kategori</option>
+                        <option value="Plan">Plan</option>
+                        <option value="Do">Do</option>
+                        <option value="Study">Study</option>
+                        <option value="Act">Act</option>
+                    </select>
+                    <span asp-validation-for="SugStatus" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="teambo2">
+                <div class="justdoit">
+                    <h3>Just do it</h3>
+                         <div class="form-group form-check">
+                            <input id="checkboxx" class="form-check-input" asp-for="JDISug" /> 
+                         </div>
+                </div>
+                <div class="date">
+
+                    <h3>Date estimate</h3>
+
+                    <div class="form-group">
+                        <input asp-for="CompletedOrDueDate" class="form-control" />
+                        <span asp-validation-for="CompletedOrDueDate" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="form-group, leggtilbilde">
+                    <h3>Legg til bilde</h3>
+
+                    <!-- Under Arbeid-->
+                    <input type="file" id="" name="legg til bilde">
+                    
+                </div>
+
+            </div>
+            <div class="teambo3">
+
+                <div class="beskrivelsex">
+                    <h3>Årsak </h3>
+                    <textarea asp-for="SugDescription" class="form-control" id="exampleTextarea" rows="3" style="height: 95px;"></textarea>
+                    <span asp-validation-for="SugDescription" class="text-danger"></span>
+                </div>
+
+            </div>
+
+            <!-- form list -->
+            <div class="framdrift">
+                
+                 <h3>Framdrift</h3>
+                 <input asp-for="progress" class="form-control, form-range" id=" framdrift" type="range" id="customRange1">
+                
+                 <span asp-validation-for="progress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

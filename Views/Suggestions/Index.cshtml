@@ -1,0 +1,174 @@
+﻿@model IEnumerable<NordicDoorTestingrep.Models.Suggestion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Legg til forslag</a>
+</p>
+<p>
+    <!--using (Html.BeginForm())
+    {
+        <text> Tid siden </text> Html.DropDownList("Time", new SelectList(ViewBag.RegisteredDate))
+        <text> Ansvarlig </text> Html.DropDownList("RespEmp", new SelectList(ViewBag.Employee))
+        <text> Team </text> Html.DropDownList("Team", new SelectList(ViewBag.Team))
+        <input type="submit" value="search">
+    }-->
+</p>
+<!--
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SugName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SugDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SugCategory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JDISug)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.progress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SugStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegisteredDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompletedOrDueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Team)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SugCreator)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ResponsibleEmployee)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody> 
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugCategory)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JDISug)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.progress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegisteredDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompletedOrDueDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Team.TeamName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SugCreator.EmpName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ResponsibleEmployee.EmpName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SuggestionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SuggestionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SuggestionId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table> -->
+<h1 class="overskrift, minefoslagcontainerchild d-flex flex-column  justify-content-center align-items-center">FORSLAG</h1>
+
+<div class="forslagside, indexparentbox">
+
+
+    <!-- her kan man sortere info -->
+    <div class="navbarforslag1">
+
+        <div class="boxavmineforslagliste">
+            <p>status</p>
+
+        </div>
+        <div class="boxavmineforslagliste">
+            <p>forslag liste</p>
+
+        </div>
+        <div class="boxavmineforslagliste">
+            <p>Brukernavn</p>
+
+        </div>
+        <div class="boxavmineforslagliste">
+            <p>type</p>
+
+        </div>
+        <div class="boxavmineforslagliste">
+            <p>Mer info</p>
+
+        </div>
+    </div>
+    <!-- --------------------------------- -->
+
+    @foreach (var item in Model) {
+        <div class="boxavmineforslag">
+
+            <!-- Status av forslag -->
+            <div class="boxavmineforslagliste" class="statusforslag">
+                <p>@Html.DisplayFor(modelItem => item.SugStatus)</p>
+            </div>
+            <!-- Forslag Navn og info -->
+            <div class="boxavmineforslagliste" id="forslaglistee">
+
+                <p class="forslagnavn">@Html.DisplayFor(modelItem => item.SugName)</p>
+            </div>
+            <div class="boxavmineforslagliste" class="userlist">
+                <p>@Html.DisplayFor(modelItem => item.ResponsibleEmployee.EmpName)</p>
+            </div>
+            <div class="boxavmineforslagliste" class="typelisteforslag">
+                <p>@Html.DisplayFor(modelItem => item.SugCategory)</p>
+            </div>
+            <div class="boxavmineforslagliste" class="buttonxlisteforslag">
+                <button type="button" class="btn btn-light"><p>Mer</p>
+            </div>
+
+            <div>
+                <a asp-action="Edit" asp-route-id="@item.SuggestionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SuggestionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SuggestionId">Delete</a>
+            </div>
+        </div>
+    } 
+
+
+
+
+
+
+</div>
+
+</div>

@@ -1,0 +1,260 @@
+/* global styling in html file */
+
+html {
+  /* all the font size to 12px of size of screen ratio */
+  font-size: 0.75rem;
+  padding  : 0;
+}
+
+
+* {
+
+  margin : 0;
+  padding: 0;
+
+}
+
+
+.body {
+
+  background-color: #e2e0d5;
+  align-content   : center;
+  justify-content : center;
+  align-items     : center;
+}
+
+
+
+/* ------------------------------------_------ */
+
+/* main style code for create.cshtml */
+
+/* this is the css for responsive for phone */
+
+@media (min-width: 768px) {
+  .createcs {
+    height: 100vh;
+
+    background-color: white;
+  }
+
+
+
+}
+
+/* css for the createcshtml container */
+
+.createcs {
+  background-color: white;
+  display         : flex;
+  justify-content : center;
+  flex-direction  : column;
+  align-items     : center;
+  height          : 80vh;
+  margin          : 2rem;
+  border-radius   : 2rem;
+}
+
+.tittle1 {
+  display        : flex;
+  flex-direction : row;
+  width          : 30%;
+  justify-content: space-between;
+}
+
+.teambo1 {
+  display            : flex;
+  justify-items      : baseline;
+  align-items        : center;
+  margin             : 0.5rem 0;
+  width              : 30%;
+  justify-content    : space-between;
+  /* flex-direction  : row; */
+
+}
+
+.teambo2 {
+
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-evenly;
+  padding        : 2rem;
+  width          : 65%;
+}
+
+.teambo3 {
+
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-evenly;
+  padding        : 2rem;
+  width          : 65%;
+}
+
+/* Button dropdown */
+#selectx {
+
+  background-color: #e7cac2;
+  border-radius   : 0.3rem;
+  height          : 2rem;
+  width           : 12rem;
+  color           : white;
+}
+
+#buttonx,
+#buttonx2 {
+  background-color: #e7cac2;
+  border-radius   : 0.3rem;
+  height          : 2rem;
+  width           : 12rem;
+  color           : white;
+}
+
+
+
+/* Input style */
+
+input {
+  width: 12rem;
+}
+
+/* Just do it */
+.justdoit {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-direction : column;
+
+}
+
+#checkboxx {
+  height: 2rem;
+  width : 2rem;
+}
+
+.beskrivelsex {
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+  width         : 35rem;
+}
+
+.date {
+  display       : flex;
+  flex-direction: column;
+}
+
+.statusx {
+  display    : flex;
+  align-items: center;
+
+}
+
+.framdrift {
+  width          : 20rem;
+  display        : flex;
+  padding        : 1rem;
+  justify-content: center;
+}
+
+#framdrift {
+  width: 25rem;
+}
+
+/* Mine forslag Index css */
+.forslagside {
+
+  display         : flex;
+  flex-direction  : column;
+  height          : 100vh;
+  width           : 100%;
+  background-color: rgba(237, 237, 237, 0.899);
+}
+
+.navbarforslag1 {
+
+  height         : 4rem;
+  margin         : 1rem;
+  display        : flex;
+  justify-content: space-around;
+  align-items    : center;
+
+}
+
+.boxavmineforslag {
+
+  height          : 8rem;
+  border-radius   : 1rem;
+  background-color: white;
+  margin          : 1.6rem;
+  display         : flex;
+  justify-content : space-evenly;
+  align-items     : center;
+
+}
+
+.boxavmineforslagliste {
+  height         : 80%;
+  width          : 10rem;
+  justify-content: center;
+  display        : flex;
+  align-items    : center;
+  align-content  : center;
+  text-align     : center;
+}
+
+.forslagnavn {
+  font-weight: bold;
+  font-size  : 1.3rem;
+}
+
+.forslagnavndesc {
+  font-size: 12px;
+}
+
+#forslaglistee {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+}
+
+.userlist {
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0;
+}
+
+/* HOME PAGE INDEX _____________ */
+
+.indexparentbox {
+  height          : 100vh;
+  width           : 100%;
+  background-color: whitesmoke;
+  border-radius   : 2rem;
+  resize          : both;
+  overflow        : auto;
+}
+
+.minefoslagcontainerchild {
+
+
+  margin-top: 1rem;
+}
+
+.box11 {
+  height: 8rem;
+  margin: 1rem 0;
+  width : 60%;
+
+  border       : solid black;
+  border-radius: 1rem;
+
+}
+
+/* Fake Login */
+a {
+    font-size: 1.4rem;
+}

@@ -1,0 +1,84 @@
+﻿@model NordicDoorTestingrep.Models.Suggestion
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Suggestion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SuggestionId" />
+            <div class="form-group">
+                <label asp-for="SugName" class="control-label"></label>
+                <input asp-for="SugName" class="form-control" />
+                <span asp-validation-for="SugName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SugDescription" class="control-label"></label>
+                <input asp-for="SugDescription" class="form-control" />
+                <span asp-validation-for="SugDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SugCategory" class="control-label"></label>
+                <input asp-for="SugCategory" class="form-control" />
+                <span asp-validation-for="SugCategory" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="JDISug" /> @Html.DisplayNameFor(model => model.JDISug)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="progress" class="control-label"></label>
+                <input asp-for="progress" class="form-control" />
+                <span asp-validation-for="progress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SugStatus" class="control-label"></label>
+                <input asp-for="SugStatus" class="form-control" />
+                <span asp-validation-for="SugStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RegisteredDate" class="control-label"></label>
+                <input asp-for="RegisteredDate" class="form-control" />
+                <span asp-validation-for="RegisteredDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompletedOrDueDate" class="control-label"></label>
+                <input asp-for="CompletedOrDueDate" class="form-control" />
+                <span asp-validation-for="CompletedOrDueDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SugCreatorID" class="control-label"></label>
+                <select asp-for="SugCreatorID" class="form-control" asp-items="ViewBag.SugCreatorID"></select>
+                <span asp-validation-for="SugCreatorID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ResponsibleEmployeeID" class="control-label"></label>
+                <select asp-for="ResponsibleEmployeeID" class="form-control" asp-items="ViewBag.ResponsibleEmployeeID"></select>
+                <span asp-validation-for="ResponsibleEmployeeID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeamID" class="control-label"></label>
+                <select asp-for="TeamID" class="form-control" asp-items="ViewBag.TeamID"></select>
+                <span asp-validation-for="TeamID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
