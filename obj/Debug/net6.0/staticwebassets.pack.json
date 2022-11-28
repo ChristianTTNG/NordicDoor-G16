@@ -1,459 +1,459 @@
 {
   "Files": [
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.css",
       "PackagePath": "staticwebassets/css/bootstrap.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.min.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.min.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.rtl.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.rtl.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.bundle.js",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.esm.js",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.esm.js.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.js",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.js",
       "PackagePath": "staticwebassets/js/bootstrap.js"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.js.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.min.js",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/cliffordv/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.min.js.map",
+      "Id": "/Users/huytrongvu/.nuget/packages/bootstrap/5.2.2/contentFiles/any/any/wwwroot/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/obj/Debug/net6.0/scopedcss/projectbundle/NordicDoorTestingrep.bundle.scp.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/obj/Debug/net6.0/scopedcss/projectbundle/NordicDoorTestingrep.bundle.scp.css",
       "PackagePath": "staticwebassets/NordicDoorTestingrep.bundle.scp.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/.DS_Store",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/.DS_Store",
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/css/site.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/css/zephyr.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/css/zephyr.css",
       "PackagePath": "staticwebassets/css/zephyr.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/favicon.ico",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/js/site.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/.DS_Store",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/.DS_Store",
       "PackagePath": "staticwebassets/lib/.DS_Store"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap.5.2.2/.DS_Store",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap.5.2.2/.DS_Store",
       "PackagePath": "staticwebassets/lib/bootstrap.5.2.2/.DS_Store"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap.5.2.2/content/.DS_Store",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap.5.2.2/content/.DS_Store",
       "PackagePath": "staticwebassets/lib/bootstrap.5.2.2/content/.DS_Store"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap.5.2.2/contentFiles/.DS_Store",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap.5.2.2/contentFiles/.DS_Store",
       "PackagePath": "staticwebassets/lib/bootstrap.5.2.2/contentFiles/.DS_Store"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/.DS_Store",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/.DS_Store",
       "PackagePath": "staticwebassets/lib/bootstrap/.DS_Store"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/.DS_Store",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/.DS_Store",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/.DS_Store"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/cliffordv/Documents/IT_Projects/NordicDoor-G16/wwwroot/nordicdoor.png",
+      "Id": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/wwwroot/nordicdoor.png",
       "PackagePath": "staticwebassets/nordicdoor.png"
     },
     {

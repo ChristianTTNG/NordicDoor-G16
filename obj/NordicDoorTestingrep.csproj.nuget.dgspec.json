@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\christian\\Source\\Repos\\NordicDoor-G16\\NordicDoorTestingrep.csproj": {}
+    "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/NordicDoorTestingrep.csproj": {}
   },
   "projects": {
-    "C:\\Users\\christian\\Source\\Repos\\NordicDoor-G16\\NordicDoorTestingrep.csproj": {
+    "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/NordicDoorTestingrep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\christian\\Source\\Repos\\NordicDoor-G16\\NordicDoorTestingrep.csproj",
+        "projectUniqueName": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/NordicDoorTestingrep.csproj",
         "projectName": "NordicDoorTestingrep",
-        "projectPath": "C:\\Users\\christian\\Source\\Repos\\NordicDoor-G16\\NordicDoorTestingrep.csproj",
-        "packagesPath": "C:\\Users\\christian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\christian\\Source\\Repos\\NordicDoor-G16\\obj\\",
+        "projectPath": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/NordicDoorTestingrep.csproj",
+        "packagesPath": "/Users/huytrongvu/.nuget/packages/",
+        "outputPath": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/huytrongvu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,19 +39,31 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.11, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             },
             "bootstrap": {
               "target": "Package",
@@ -78,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

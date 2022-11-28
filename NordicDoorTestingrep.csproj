@@ -10,12 +10,15 @@
 
 	<ItemGroup>
     <PackageReference Include="bootstrap" Version="5.2.2" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="MySqlConnector" Version="2.2.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.11" />
   </ItemGroup>
 	
 		
@@ -27,4 +30,13 @@
 	  </Content>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+	  <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+	  <None Remove="Microsoft.AspNetCore.Identity.UI" />
+	  <None Remove="SQL\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="SQL\" />
+	</ItemGroup>
 </Project>

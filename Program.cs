@@ -1,9 +1,23 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Options;
+using System.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using NordicDoorTestingrep.Data;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddTransient<ISqlConnector, SqlConnector>();
+
 builder.Services.AddDbContext<NordicDoorTestingrepContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("NordicDoorTestingrepContext") ?? throw new InvalidOperationException("Connection string 'NordicDoorTestingrepContext' not found.")));
+{
+    options.UseMySql(builder.Configuration.GetConnectionString("NordicDoorTestingrepContext"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("NordicDoorTestingrepContext")));
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
