@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NordicDoorApplication", "NordicDoorApplication.csproj", "{181E8827-F65A-43EC-92FF-41EFE60DEAA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{181E8827-F65A-43EC-92FF-41EFE60DEAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181E8827-F65A-43EC-92FF-41EFE60DEAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181E8827-F65A-43EC-92FF-41EFE60DEAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181E8827-F65A-43EC-92FF-41EFE60DEAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF8BB19B-122A-4AA2-8AF4-58E7EDE9B4A9}
+	EndGlobalSection
+EndGlobal
