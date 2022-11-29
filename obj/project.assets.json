@@ -10623,25 +10623,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/huytrongvu/.nuget/packages/": {}
+    "C:\\Users\\edi20\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/NordicDoorTestingrep.csproj",
+      "projectUniqueName": "C:\\Users\\edi20\\source\\repos\\NordicDoor-G16\\NordicDoorTestingrep.csproj",
       "projectName": "NordicDoorTestingrep",
-      "projectPath": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/NordicDoorTestingrep.csproj",
-      "packagesPath": "/Users/huytrongvu/.nuget/packages/",
-      "outputPath": "/Users/huytrongvu/Documents/Projects/NordicDoor-G16/obj/",
+      "projectPath": "C:\\Users\\edi20\\source\\repos\\NordicDoor-G16\\NordicDoorTestingrep.csproj",
+      "packagesPath": "C:\\Users\\edi20\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edi20\\source\\repos\\NordicDoor-G16\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/huytrongvu/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\edi20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10710,7 +10716,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

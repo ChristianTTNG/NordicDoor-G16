@@ -7,7 +7,7 @@
 <h1>Teams</h1>
 
 <p>
-    <a asp-action="Create">Legg til ny team</a>
+    <a asp-action="Create">Legg til nytt team</a>
 </p>
 <table class="table">
     <thead>
@@ -25,9 +25,9 @@
                 @Html.DisplayFor(modelItem => item.TeamName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.TeamID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.TeamID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.TeamID">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.TeamID">Endre</a> |
+                <a asp-action="Details" asp-route-id="@item.TeamID">Mer info</a> |
+                <a asp-action="Delete" asp-route-id="@item.TeamID">Slett</a>
             </td>
         </tr>
 }

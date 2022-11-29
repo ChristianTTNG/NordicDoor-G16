@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Data",
+    "\\SQL"
   ],
-  "SelectedNode": "\\NordicDoors.sln",
+  "SelectedNode": "\\NordicDoorTestingrep.csproj",
   "PreviewInSolutionExplorer": false
 }
