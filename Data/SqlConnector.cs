@@ -2,7 +2,7 @@
 using MySqlConnector;
 using System.Data;
 using System.Data.Common;
-
+/*
 namespace NordicDoorTestingrep.Data
 {
     public class SqlConnector : ISqlConnector
@@ -20,4 +20,4 @@ namespace NordicDoorTestingrep.Data
         }
 
     }
-}
+}*/

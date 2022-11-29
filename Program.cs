@@ -11,7 +11,7 @@ using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddTransient<ISqlConnector, SqlConnector>();
+//builder.Services.AddTransient<ISqlConnector, SqlConnector>();
 
 builder.Services.AddDbContext<NordicDoorTestingrepContext>(options =>
 {
