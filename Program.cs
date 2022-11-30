@@ -5,11 +5,15 @@ using NordicDoorApplication.Core;
 using NordicDoorApplication.Areas.Identity.Data;
 using NordicDoorApplication.Core.Interface;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+{
+    options.UseMySql(builder.Configuration.GetConnectionString("ApplicationDbContext"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("ApplicationDbContext")));
+});
 
 builder.Services.AddTransient<ISuggestionRepository, SuggestionRepository>();
 builder.Services.AddTransient<ITeamRepository, TeamRepository>();
