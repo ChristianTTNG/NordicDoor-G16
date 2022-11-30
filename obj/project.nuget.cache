@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LkWvUuG99oLv/+CYE7bOxFhoLrieQQfe/wo6M7Rn020wPq1MP0eShWS5tp66EaQ9L419NEIpiugK0n+KmM0OjQ==",
+  "dgSpecHash": "M904lv3FG4NQxCoz4o/Jfr/rtsXioLecmk+DYp2UdzDV9ZvyeAdiDpdZXdaAsmNbRz54TKSOtobDF3nr5r7ldg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Isak meen\\Source\\Repos\\NordicDoor-G16\\NordicDoorApplication.csproj",
   "expectedPackageFiles": [
@@ -46,8 +46,8 @@
     "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\6.0.10\\microsoft.extensions.fileproviders.embedded.6.0.10.nupkg.sha512",
     "C:\\Users\\Isak meen\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.11\\microsoft.extensions.identity.core.6.0.11.nupkg.sha512",
@@ -185,5 +185,12 @@
     "C:\\Users\\Isak meen\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Isak meen\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Isak meen\\Source\\Repos\\NordicDoor-G16\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

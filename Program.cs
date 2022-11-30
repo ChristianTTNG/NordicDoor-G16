@@ -6,6 +6,8 @@ using NordicDoorApplication.Areas.Identity.Data;
 using NordicDoorApplication.Core.Interface;
 using NordicDoorApplication.Core.Repository;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
