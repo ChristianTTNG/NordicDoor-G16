@@ -1,0 +1,45 @@
+﻿@model ICollection<NordicDoorApplication.Models.Team>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Teams</h1>
+
+<p>
+    <a asp-action="Create">Legg til ny team</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+            <th scope="col">AnsattNummer</th>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TeamName)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.TeamId">Details</a> |
+                    @if (User.IsInRole("Administrator"))
+                    {
+                         <a asp-action="Edit" asp-route-id="@item.TeamId">Edit</a>
+                    
+                         <a asp-action = "Delete" asp-route-id = "@item.TeamId" > Delete </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

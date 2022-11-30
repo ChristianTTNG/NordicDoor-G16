@@ -62,9 +62,12 @@ namespace NordicDoorApplication.Migrations
            ([UserId]
            ,[RoleId])
         VALUES
-           ('{User1Id}', '{AdminRoleId}');");
-
-
+           ('{User1Id}', '{AdminRoleId}');
+        INSERT INTO [dbo].[AspNetUserRoles]
+           ([UserId]
+           ,[RoleId])
+        VALUES
+           ('{User1Id}', '{UserRoleId}');");
 
         }
 

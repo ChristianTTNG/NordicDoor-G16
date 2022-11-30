@@ -1,0 +1,49 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Users page";
+}
+
+@model ICollection<NordicDoorApplication.Areas.Identity.Data.ApplicationUser>
+
+<div class="text-center">
+    <h1 class="display-4">Users</h1>
+    @if (@Model != null && @Model.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">AnsattNummer</th>
+                    <th scope="col">Navn</th>
+                    <th scope="col">Email</th>
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <th scope="col">Endre</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <th scope="row">@user.Id</th>
+                        <td>@user.EmployeeNumber</td>
+                        <td>@user.EmpName</td>
+                        <td>@user.Email</td>
+                        @if (User.IsInRole("Administrator"))
+                        {
+                            <td>
+                                <a asp-controller="User" asp-action="Edit" asp-route-id="@user.Id">Endre</a>
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+<div class="text-center">
+</div>

@@ -27,7 +27,6 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<Suggestion> Suggestions { get; set; }
     public DbSet<Team> Teams { get; set; }
     public DbSet<Comment> Comments { get; set; }
-
     public DbSet<TeamMembership> TeamsMembership { get; set; }
 
 

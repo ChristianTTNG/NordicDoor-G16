@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model NordicDoorApplication.ViewModels.TeamViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Endre</h1>
+
+<h4>Team</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TeamId" />
+            <div class="form-group">
+                <label asp-for="TeamName" class="control-label"></label>
+                <input asp-for="TeamName" class="form-control" />
+                <span asp-validation-for="TeamName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeamMedlemmer" class="control-label"></label>
+                <span asp-validation-for="TeamMedlemmer" class="text-danger"></span>
+
+                <div class="d-flex flex-column">
+                    @for (int i = 0; i < Model.TeamMedlemmer.Count(); i++)
+                    {
+                        <div style="float:left">
+                            @Html.EditorFor(m => Model.TeamMedlemmer[i].Checked, new { htmlAttributes = new { @style="width: auto" } })
+                            @Html.DisplayFor(m => Model.TeamMedlemmer[i].Name)
+
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Tilbake</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

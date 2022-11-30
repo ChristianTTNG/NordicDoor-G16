@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model NordicDoorApplication.ViewModels.TeamViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Mer info</h1>
+
+<div>
+    <h4>Team</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TeamName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TeamName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TeamMedlemmer)
+        </dt>
+        <dd class="col-sm-10">
+            @foreach (var item in Model.TeamMedlemmer)
+            {
+                if (item.Checked)
+                {
+                    <div>@item.Name</div>
+                }
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.TeamId">Edit</a> |
+    <a asp-action="Index">Tilbake</a>
+</div>

@@ -4,12 +4,15 @@ using Microsoft.VisualBasic;
 using NordicDoorApplication.Core;
 using NordicDoorApplication.Areas.Identity.Data;
 using NordicDoorApplication.Core.Interface;
+using NordicDoorApplication.Core.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+{
+    options.UseMySql(builder.Configuration.GetConnectionString("ApplicationDbContext"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("ApplicationDbContext")));
+});
 
 builder.Services.AddTransient<ISuggestionRepository, SuggestionRepository>();
 builder.Services.AddTransient<ITeamRepository, TeamRepository>();
@@ -25,11 +28,11 @@ builder.Services.Configure<IdentityOptions>(options =>
     // Default Lockout settings.
     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
     options.Lockout.MaxFailedAccessAttempts = 5;
-    /*options.Lockout.AllowedForNewUsers = false;
+    options.Lockout.AllowedForNewUsers = false;
     options.SignIn.RequireConfirmedPhoneNumber = false;
     options.SignIn.RequireConfirmedEmail = false;
     options.SignIn.RequireConfirmedAccount = false;
-    options.User.RequireUniqueEmail = false;*/
+    options.User.RequireUniqueEmail = false;
 });
 
 builder.Services.Configure<IdentityOptions>(options =>
@@ -52,7 +55,7 @@ builder.Services.AddControllersWithViews();
 
 #endregion
 
-
+AddScoped();
 
 var app = builder.Build();
 
@@ -92,4 +95,12 @@ void AddAuthorizationPolicies()
         options.AddPolicy(Consts.Policies.RequireAdmin, policy => policy.RequireRole(Consts.Roles.Administrator));
         options.AddPolicy(Consts.Policies.RequireManager, policy => policy.RequireRole(Consts.Roles.Manager));
     });
+}
+
+
+void AddScoped()
+{
+    builder.Services.AddScoped<IUserRepository, UserRepository>();
+    builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+    builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 }

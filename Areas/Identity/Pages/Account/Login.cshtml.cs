@@ -158,8 +158,12 @@ namespace NordicDoorApplication.Areas.Identity.Pages.Account
                 else
                 {
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    
+                    var username = Input.Email;
+                    _logger.LogError((EventId)1234, "Invalid login attempt from {username} on {date}", username, DateTime.Now);
                     return Page();
                 }
+
             }
 
             // If we got this far, something failed, redisplay form

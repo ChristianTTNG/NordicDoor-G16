@@ -10,7 +10,11 @@ namespace NordicDoorApplication.Areas.Identity.Data;
 // Ansatt
 public class ApplicationUser : IdentityUser
 {
-    public string EmployeeNumber { get; set; }
+    public int EmployeeNumber { get; set; }
     public string EmpName { get; set; }
 }
 
+public class ApplicationRole : IdentityRole
+{
+
+}

@@ -76,7 +76,7 @@ namespace NordicDoorApplication.Areas.Identity.Pages.Account
             [Required]
             [StringLength(64, ErrorMessage="Ansattnummer må være mellom 3 og 64 tegn (tall)", MinimumLength = 3)]
             [Display(Name = "Ansattnummer")]
-            public string EmployeeNumber { get; set; }
+            public int EmployeeNumber { get; set; }
 
             [Required]
             [StringLength(155, ErrorMessage = "Navn må være maksimum 155 tegn")]

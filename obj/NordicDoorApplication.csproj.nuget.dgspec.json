@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IsakMeen\\source\\repos\\NordicDoorApplication\\NordicDoorApplication.csproj": {}
+    "C:\\Users\\Isak meen\\Source\\Repos\\NordicDoor-G16\\NordicDoorApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IsakMeen\\source\\repos\\NordicDoorApplication\\NordicDoorApplication.csproj": {
+    "C:\\Users\\Isak meen\\Source\\Repos\\NordicDoor-G16\\NordicDoorApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IsakMeen\\source\\repos\\NordicDoorApplication\\NordicDoorApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Isak meen\\Source\\Repos\\NordicDoor-G16\\NordicDoorApplication.csproj",
         "projectName": "NordicDoorApplication",
-        "projectPath": "C:\\Users\\IsakMeen\\source\\repos\\NordicDoorApplication\\NordicDoorApplication.csproj",
-        "packagesPath": "C:\\Users\\IsakMeen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IsakMeen\\source\\repos\\NordicDoorApplication\\obj\\",
+        "projectPath": "C:\\Users\\Isak meen\\Source\\Repos\\NordicDoor-G16\\NordicDoorApplication.csproj",
+        "packagesPath": "C:\\Users\\Isak meen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isak meen\\Source\\Repos\\NordicDoor-G16\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IsakMeen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Isak meen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,6 +69,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -90,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

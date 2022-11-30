@@ -183,10 +183,9 @@ namespace NordicDoorApplication.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<string>("EmployeeNumber")
-                        .IsRequired()
+                    b.Property<int>("EmployeeNumber")
                         .HasMaxLength(64)
-                        .HasColumnType("nvarchar(64)");
+                        .HasColumnType("int");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
